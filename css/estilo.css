@@ -1,3 +1,19 @@
-p {
-    color: red
+
+
+.descripcion {
+    color: silver;
+}
+
+.contenedor{
+    position: relative;
+    display:flex;
+    align-items: center
+}
+
+.imagen{
+    margin-top: 60px;
+}
+
+.icono{
+ color:red;
 }
