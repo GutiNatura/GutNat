@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GutiNatura</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> <meta charset="UTF-8">
+    <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet">
+	<link href="fontawesome/css/brands.css" rel="stylesheet">
+	<link href="fontawesome/css/solid.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="./imgs/logo.png" height="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Productos<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="perfil" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nosotros
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="perfil.html">¿Quienes Somos?</a>
+                        <a class="dropdown-item" href="mision.html">Misión</a>
+                        <a class="dropdown-item" href="mision.html">Visión</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+						<a class="nav-link" href="carrito.html">
+								<i class="fas fa-cart-plus"></i>
+						</a>
+				</li>
+            </ul>
+        </div>
+    </nav>
+    <style type="text/css">
+        p {
+            color: #567788;
+            font-family: Verdana;
+        }
+
+        .contenedorpadre {
+            text-align: center;
+        }
+
+        .texto1 {
+            height: 100px;
+            width: 800px;
+        }
+    </style>
+    <div class="container mt-5">
+        <center>
+            <h2>CARRITO DE COMPRAS</h2>
+        </center>
+        <div class="row justify-content-center">
+            <div class="texto1  mt-5">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Importe</th>
+                            <th scope="col">Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Maca Premium</td>
+                            <td>S/.20.00</td>
+                            <td>1</td>
+                            <td>S/.20.00</td>
+                            <td> <button><span class="fas fa-trash-alt icono"></span></button> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Alfalfa Verde</td>
+                            <td>S/.60.00</td>
+                            <td>2</td>
+                            <td>S/.60.00</td>
+                            <td><button><span class="fas fa-trash-alt icono"></span></button> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Capsulas de Chia</td>
+                            <td>S/.20.00</td>
+                            <td>1</td>
+                            <td>S/.20.00</td>
+                            <td><button><span class="fas fa-trash-alt icono"></span></button> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <div class="row">
+                    <div class="col-8">
+                            <a href="index.html" class="btn btn-primary"> Seguir comprando</a>
+                    </div>
+                    <div class="col-4">
+                            <P >Total: S./ 100</P>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-8">
+                        </div>
+                        <div class="col-4">
+                                <button type="button" class="btn btn-success" >
+                                        Realizar pago
+                                </button>	
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
